@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Navbar Styles */
+
   .navbari {
     background:#f0f8ff;
     border-bottom: 1px solid #ddd;
@@ -95,4 +95,7 @@
   }
   .hap h1{
     padding: 0px 300px 30px;
+  }
+  .hap p{
+    align-content: center;
   }
