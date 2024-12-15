@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.navbari {
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #ddd; 
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .fillimi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    }
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    margin: 19px;
+  }
+  .logo p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3a26a0;
+  }
+  .linqet ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .linqet ul li {
+    margin: 0 16px;
+    position: relative;
+  }
+  .linqet a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+ .linqet a:hover {
+    color: #007bff;
+  }
+
+.blue {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 100px; 
+    text-align: center;
+}
+
+.blue span {
+    font-weight: bold;
+}
+    @media (max-width: 768px) {
+        .linqet{
+            display: none;
+        }
+         .logo {
+            width: auto; 
+            margin: 0;
+            justify-content: center;
+          }
+           .logo img {
+            height: 50px; 
+          }
+          .logo p {
+            font-size: 16px; 
+          }
+        }
+    
+
+    .lokacioni {
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .lokacioniii{
+        padding-left: 10px;
+
+    }
+      .lokacioni h1 {
+        text-align: center;
+        color: #3a26a0;
+    }
+     h2 , h3{
+        color: rgb(44, 41, 41);
+        margin-top: 20px;
+    }
+    
+    p, ul {
+        font-size: 16px;
+        color: gray;
+        margin: 5px 0;
+    }
+    footer {
+        background-color: #1b1b1b; 
+        color: #eaeaea; 
+        padding: 30px 20px; 
+        text-align: center;
+        line-height: 24px;
+        box-sizing: border-box;
+        width: 100%;
+      }
+      
