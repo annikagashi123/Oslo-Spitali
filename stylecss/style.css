@@ -244,7 +244,7 @@
   background-color: #f8f9fa;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 32px;
   color: #0097a7; 
   margin-bottom: 20px;
 }
@@ -263,7 +263,7 @@ h1 {
 }
 .checkups h2 {
   color: #00796b; 
-  font-size: 1.5em;
+  font-size: 24px;
   margin-bottom: 10px;
   border-bottom: 2px solid #00bfa5;
   display: inline-block;
@@ -481,35 +481,33 @@ footer p {
   color: #b0b0b0; 
 }
 @media (max-width: 768px) {
-  footer .header {
+  .header {
       flex-direction: column; 
       align-items: center;
   }
-  footer img {
+  .header img {
       width: 80px; 
       margin-bottom: 10px; 
   }
-  footer h2 {
+  .header h2 {
       font-size: 20px; 
   }
-  footer h6, footer p {
+  .header h6, .header p {
       font-size: 14px; 
   }
-  footer p:nth-of-type(n+2) {
-      display: none; 
-  }
+  
 }
 @media (max-width: 480px) {
-  footer {
+  .header {
       padding: 20px 10px; 
   }
-  footer img {
+  .header img {
       width: 70px; 
   }
-  footer h2 {
+  .header h2 {
       font-size: 18px; 
   }
-  footer h6, footer p {
+  .header h6, .header p {
       font-size: 12px; 
   }
 }
